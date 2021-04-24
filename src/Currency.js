@@ -6,7 +6,7 @@ const Currency = ({currencyOptions , selectedCurrency , onChangeCurrency , amoun
     
     <>  
             
-          
+            
             <input  className = "inputTag" value = {amount} onChange = {onChangeAmount}/>
             <select value = {selectedCurrency} onChange = {onChangeCurrency}>
             {currencyOptions.map(option  => (

@@ -4,15 +4,14 @@ const Currency = ({currencyOptions , selectedCurrency , onChangeCurrency , amoun
 
   return (
     
-    <>  
-            
-            
-            <input  className = "inputTag" value = {amount} onChange = {onChangeAmount}/>
+    <>      
+    
+            {/* <input  className = "inputTag" value = {amount} onChange = {onChangeAmount}/>
             <select value = {selectedCurrency} onChange = {onChangeCurrency}>
             {currencyOptions.map(option  => (
               <option value={option} key = {option}>{option}</option>
             ))}     
-            </select>
+            </select> */}
     </>
   )
 } 
